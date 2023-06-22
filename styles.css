@@ -7,13 +7,17 @@
 body {
     font-family: 'Gilroy', 'Roboto', 'san-serif';
     font-weight: normal;
+    color: #141414;
 }
+
 head {
     position: fixed;
 }
+
 a {
     text-decoration: none;
 }
+
 .nav, .nav-links {
     display: flex;
 
@@ -63,7 +67,6 @@ a {
     font-size: 3rem;
     font-weight: 900;
     line-height: 6rem;
-    color: #141414;
     text-align: center;
 }
 
@@ -105,4 +108,20 @@ a {
     border-radius: 25px;
     text-align: center;
     z-index: 1;
+}
+
+.features-top, .features-top-details {
+    display: flex;
+    align-self: center;
+}
+
+.features-top {
+    background-color: #F9FBFD;
+    padding: 3rem 8.75rem;
+    margin-top: -3px;
+    gap: 7.5rem;
+}
+
+.features-top-details {
+    gap: 4.5rem;
 }
