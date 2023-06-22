@@ -51,7 +51,7 @@ a {
 }
 
 #my-urls {
-    margin-top: 4.5rem;
+    margin-top: 4rem;
 }
 
 .hero {
@@ -71,4 +71,38 @@ a {
     max-width: 70%;
     margin: 0 auto;
     text-align: center;
+}
+
+.hero-links {
+    display: flex;
+    gap: 3.5rem;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.hero-sign-up, .hero-learn-more {
+    align-self: center;
+}
+
+.hero-images {
+    position: relative;
+    max-width: 70%;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+
+.hero-images .vector-img {
+    position: absolute;
+    z-index: -1;
+    top: -15%;
+}
+
+.hero-images-div {
+    background-color: rgba(254, 254, 254, 0.10);
+    backdrop-filter: blur(106px);
+    padding: 2.5rem 3.75rem;
+    border: 0.5px solid #005AE2;
+    border-radius: 25px;
+    text-align: center;
+    z-index: 1;
 }
