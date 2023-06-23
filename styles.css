@@ -149,6 +149,7 @@ li {
     text-align: left;
     justify-content: center;
     gap: 6rem;
+    padding-left: 4rem;
 }
 
 .features-bottom-why {
@@ -201,4 +202,18 @@ li {
     gap: 1.5rem;
     padding-left: 0.7rem;
     margin: 1rem auto;
+}
+
+.analytics-form {
+    
+}
+
+.btn-block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-block span, .trim-url-wand {
+    align-self: center;
 }
