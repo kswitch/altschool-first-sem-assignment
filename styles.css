@@ -353,3 +353,24 @@ details p {
     position: relative;
     z-index: 5;
 }
+
+.footer-two {
+    padding: 5.94rem 12.62rem 5.12rem 12.69rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.bottom-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.social-media {
+    position: relative;
+    z-index: 4;
+    display: flex;
+    gap: 1.5rem;
+    padding-top: 2rem;
+}
