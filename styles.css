@@ -279,3 +279,46 @@ li {
 .btn-block span, .trim-url-wand {
     align-self: center;
 }
+
+.faqs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2.69rem 20.25rem 9.69rem;
+}
+
+details {
+    border-bottom: 1px solid #D6D6D6;
+    padding: 2rem 0 1rem;
+}
+
+summary {
+    list-style: none;
+    display: flex;
+    flex: 1 0 0;
+    font-size: 1.25rem;
+    justify-content: space-between; 
+    transition: height 1s ease;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+summary:after {
+    content: "\002B";
+
+}
+
+details[open] summary {
+    margin-bottom: .5em;
+}
+
+details[open] summary:after{
+    content: "--";
+}
+
+details p {
+    line-height: 2rem;
+    padding: 1rem 0;
+}
