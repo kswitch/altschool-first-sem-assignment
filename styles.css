@@ -329,3 +329,27 @@ details p {
     line-height: 2rem;
     padding: 1rem 0;
 }
+
+.footer-one {
+    background: linear-gradient(180deg, #1E3448 99.99%, rgba(30, 52, 72, 0.00) 100%);
+    padding: 6.81rem 19.81rem 3.31rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.footer-one h2 {
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.get-started {
+    text-align: center;
+    max-width: fit-content;
+    margin: 0 auto;
+    position: relative;
+    z-index: 5;
+}
