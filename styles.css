@@ -5,13 +5,17 @@
 }
 
 body {
-    font-family: 'Gilroy', 'Roboto', 'san-serif';
+    font-family: 'Roboto', 'san-serif';
     font-weight: normal;
     color: #141414;
 }
 
 a {
     text-decoration: none;
+}
+
+li { 
+    list-style-type: none;
 }
 
 .nav, .nav-links {
@@ -23,13 +27,11 @@ a {
     justify-content: space-between;
     padding: 0.8rem;
     max-width: 80%;
-    /* position: fixed; */
     margin: 0 auto;
     background-color: white;
 }
 
 .nav-links {
-    list-style-type: none;
     gap: 2.5rem;
     align-self: center;
 }
@@ -47,19 +49,25 @@ a {
     background-color: #0065FE;
     border-radius: 100px;
     padding: 0.75rem 1.5rem;
+    border: 1px solid #0065FE;
 }
+
+.white-btn-design {
+    color: #0065FE;
+    background-color: white;
+    border: 1px solid #0065FE;
+}
+
 .blue-txt {
     color: #0065FE;
 }
 
 .lh1-75rm {
     line-height: 1.75rem;
-
 }
 
 .lh1-5rm {
     line-height: 1.5rem;
-
 }
 
 #my-urls {
@@ -74,7 +82,7 @@ a {
 .hero-txt {
     font-size: 3rem;
     font-weight: 900;
-    line-height: 6rem;
+    line-height: 5rem;
     text-align: center;
 }
 
@@ -152,4 +160,44 @@ a {
 #Pricing {
     text-align: center;
     margin-top: 8rem;
+}
+
+.pricing {
+    text-align: left;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 300px 300px 300px;
+    padding-top: 4.25rem;
+}
+
+.pricing-type {
+    border: 1px solid #005AE2;
+    border-radius: 12px;
+    box-shadow: 0px 1px 2px grey;
+    padding: 1.5rem 2rem;
+}
+
+.left {
+    border-radius: 12px 0 0 12px;
+    border-right: none;
+}
+
+.right {
+    border-radius: 0 12px 12px 0;
+    border-left: none;
+}
+
+.professional {
+    color: white;
+    background-color: #1E3448;
+    height: 100%;
+    padding-top: 30%;
+}
+
+.pricing-benefits {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-left: 0.7rem;
+    margin: 1rem auto;
 }
