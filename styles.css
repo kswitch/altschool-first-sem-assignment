@@ -212,8 +212,23 @@ li {
     background: linear-gradient(180deg, #1E3448 99.99%, rgba(30, 52, 72, 0.00) 100%);
 }
 
+.analytics-form {
+    border-radius: 12px;
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2.62rem;
+    max-width: 27rem;
+    row-gap: 1.5rem;
+    background-color: white;
+    z-index: 2;
+}
+
 .analytics-left-image, .analytics-right-image {
     position: absolute;
+    z-index: 1;
 }
 
 .analytics-left-image {
@@ -224,17 +239,6 @@ li {
 .analytics-right-image {
     bottom: 0;
     right: 0;
-}
-.analytics-form {
-    border-radius: 12px;
-    display: flex;
-    margin: 0 auto;
-    flex-direction: column;
-    justify-content: center;
-    padding: 2.62rem;
-    max-width: 27rem;
-    row-gap: 1.5rem;
-    background-color: white;
 }
 
 .analytics-form div {
