@@ -161,6 +161,7 @@ li {
 #Pricing {
     text-align: center;
     margin-top: 8rem;
+    padding-bottom: 7rem;
 }
 
 .pricing {
@@ -204,12 +205,69 @@ li {
     margin: 1rem auto;
 }
 
-.analytics-form {
-    
+.analytics-div {
+    padding: 5.24rem 0;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(180deg, #1E3448 99.99%, rgba(30, 52, 72, 0.00) 100%);
 }
 
-.btn-block {
+.analytics-left-image, .analytics-right-image {
+    position: absolute;
+}
+
+.analytics-left-image {
+    top: 0;
+    left: 0;
+}
+
+.analytics-right-image {
+    bottom: 0;
+    right: 0;
+}
+.analytics-form {
+    border-radius: 12px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2.62rem;
+    max-width: 27rem;
+    row-gap: 1.5rem;
+    background-color: white;
+}
+
+.analytics-form div {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+.analytics-form-inputs {
+    border: 1px solid #005AE2;
+    color: #0065FE;
+    border-radius: 12px;
+    padding: 1rem;
+}
+
+#url {
     width: 100%;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #0065FE;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #0065FE;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #0065FE;
+  }
+
+.btn-block {
     display: flex;
     justify-content: center;
 }
