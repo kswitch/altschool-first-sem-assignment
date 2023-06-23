@@ -10,10 +10,6 @@ body {
     color: #141414;
 }
 
-head {
-    position: fixed;
-}
-
 a {
     text-decoration: none;
 }
@@ -27,7 +23,9 @@ a {
     justify-content: space-between;
     padding: 0.8rem;
     max-width: 80%;
+    /* position: fixed; */
     margin: 0 auto;
+    background-color: white;
 }
 
 .nav-links {
@@ -52,6 +50,16 @@ a {
 }
 .blue-txt {
     color: #0065FE;
+}
+
+.lh1-75rm {
+    line-height: 1.75rem;
+
+}
+
+.lh1-5rm {
+    line-height: 1.5rem;
+
 }
 
 #my-urls {
@@ -124,4 +132,24 @@ a {
 
 .features-top-details {
     gap: 4.5rem;
+}
+
+.features-bottom {
+    margin-top: 8rem;
+    display: grid;
+    grid-template-columns: 400px 700px;
+    text-align: left;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.features-bottom-why {
+    display: grid;
+    grid-template-columns: 330px 330px;
+    gap: 1.75rem;
+}
+
+#Pricing {
+    text-align: center;
+    margin-top: 8rem;
 }
