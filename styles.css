@@ -190,6 +190,7 @@ li {
 .professional {
     color: white;
     background-color: #1E3448;
+    border: 1px solid #1E3448;
     height: 100%;
     padding-top: 30%;
 }
