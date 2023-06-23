@@ -40,6 +40,11 @@ li {
 
 .link {
     color: #141414;
+    line-height: 1.5rem;
+}
+
+.extra-padding {
+    padding-top: 0.5rem;
 }
 
 .login {
@@ -362,7 +367,7 @@ details p {
 
 .bottom-image {
     position: absolute;
-    bottom: 0;
+    bottom: -4%;
     left: 0;
     z-index: 1;
 }
@@ -373,4 +378,22 @@ details p {
     display: flex;
     gap: 1.5rem;
     padding-top: 2rem;
+}
+
+.footer-two {
+    display: flex;
+    column-gap: 2.44rem;
+}
+
+.footer-two-extra-links {
+    display: grid;
+    grid-template-columns: 180px 201px 211px 100px;
+    column-gap: 1.5rem;
+}
+
+.extra-links {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 4;
 }
