@@ -8,6 +8,8 @@ body {
     font-family: 'Roboto', 'san-serif';
     font-weight: normal;
     color: #141414;
+    max-width: 90rem;
+    margin: 0 auto;
 }
 
 a {
@@ -244,7 +246,6 @@ li {
 .analytics-form div {
     display: flex;
     justify-content: space-between;
-    gap: 0.5rem;
 }
 
 .analytics-form-inputs {
@@ -285,6 +286,12 @@ li {
     flex-direction: column;
     justify-content: center;
     padding: 2.69rem 20.25rem 9.69rem;
+    position: relative;
+}
+
+.faq-questions {
+    position: relative;
+    z-index: 4;
 }
 
 details {
@@ -298,7 +305,7 @@ summary {
     flex: 1 0 0;
     font-size: 1.25rem;
     justify-content: space-between; 
-    transition: height 1s ease;
+    cursor: pointer;
 }
 
 summary::-webkit-details-marker {
@@ -315,7 +322,7 @@ details[open] summary {
 }
 
 details[open] summary:after{
-    content: "--";
+    content: "-";
 }
 
 details p {
