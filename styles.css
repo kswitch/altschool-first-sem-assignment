@@ -360,6 +360,8 @@ details p {
 }
 
 .footer-two {
+    display: flex;
+    column-gap: 2.44rem;
     padding: 5.94rem 12.62rem 5.12rem 12.69rem;
     position: relative;
     overflow: hidden;
@@ -380,11 +382,6 @@ details p {
     padding-top: 2rem;
 }
 
-.footer-two {
-    display: flex;
-    column-gap: 2.44rem;
-}
-
 .footer-two-extra-links {
     display: grid;
     grid-template-columns: 180px 201px 211px 100px;
@@ -395,5 +392,13 @@ details p {
     display: flex;
     flex-direction: column;
     position: relative;
+    z-index: 4;
+}
+
+.footer-three {
+    display: flex;
+    position: absolute;
+    bottom: 2.44rem;
+    right: 5.94rem;
     z-index: 4;
 }
